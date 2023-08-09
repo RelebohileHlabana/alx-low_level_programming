@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - Entry point of the program
  * @argc: Number of command-line arguments
  * @argv: Array of command-line argument strings
  *
@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
 
 	argumentCount = argc - 1;
 
-	printf("Number of arguments: %d\n", argumentCount);
+	printf("%d\n", argumentCount);
 
 	return (0);
 }
+
