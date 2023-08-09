@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int cents, coins[] = {25, 10, 5, 2, 1}, num_coins = 5, total_coins = 0;
+	int i;
 
 	if (argc != 2)
 	{
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (int i = 0; i < num_coins; i++)
+	for (i = 0; i < num_coins; i++)
 	{
 		total_coins += cents / coins[i];
 		cents %= coins[i];
