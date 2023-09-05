@@ -1,3 +1,4 @@
+#Malloc_Free
 0. Float like a butterfly, sting like a bee-Write a function that creates an array of chars, and initializes it with a specific char.
 Prototype: char *create_array(unsigned int size, char c);
 Returns NULL if size = 0
@@ -18,4 +19,4 @@ Each element of the grid should be initialized to 0
 The function should return NULL on failureIf width or height is 0 or negative, return NULL
 4. It's not bragging if you can back it up-Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 Prototype: void free_grid(int **grid, int height);
-Note that we will compile with your alloc_grid.c file. Make sure it compiles.	
+Note that we will compile with your alloc_grid.c file. Make sure it compiles.
